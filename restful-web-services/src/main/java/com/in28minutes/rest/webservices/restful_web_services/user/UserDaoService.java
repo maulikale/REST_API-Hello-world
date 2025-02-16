@@ -39,7 +39,7 @@ public class UserDaoService {
 	}
 	
 	//will save user
-	public User saveUser(User user) {
+	public User save(User user) {
 		user.setId(++usersCount);
 		users.add(user);
 		return user;
